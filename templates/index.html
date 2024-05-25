@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>自動點名系統</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>上傳圖片</h1>
+    <div class="upload-container">
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="file-input" accept="image/*">
+            <input type="submit" value="上傳">
+        </form>
+        <div id="preview-container">
+            <img id="preview-image" src="#" alt="Image Preview">
+        </div>
+    </div>
+    <h2>選擇班級</h2>
+    <div class="folder-container">
+        <form method="get">
+            <div class="folder-section">
+                {% for class in classes %}
+                    <input type="radio" name="class" value="{{ class }}" {% if class == selected_class %}checked{% endif %}>
+                    <label for="class">{{ class }}</label>
+                {% endfor %}
+            </div>
+            <input type="submit" value="選擇">
+        </form>
+    </div>
+    <h3>學生出席情況</h3>
+    <ul>
+        {% for student in students %}
+            <li>
+                <img src="{{ student.image }}" alt="{{ student.name }}" style="width: 50px; height: 50px; vertical-align: middle;">
+                {{ student.name }}
+                <input type="checkbox" name="switch" class="check" {% if student.present %}checked{% endif %} disabled>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <script>
+        document.getElementById('file-input').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const previewImage = document.getElementById('preview-image');
+                    previewImage.src = e.target.result;
+                    previewImage.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+</body>
+</html>
