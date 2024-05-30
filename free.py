@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 import os
-import random
+import predict_free
 import test
 
 app = Flask(__name__)
@@ -21,6 +21,16 @@ def get_students_absent(class_name, file_path):
     counts = test.show_face(file_path)
     class_path = os.path.join(CLASS_FOLDER, class_name)
     students = []
+    num = predict_free.write_face_to_tmp(file_path)
+    #special case: people in the pic more than student: everyone check
+    if (num >= len(os.listdir(class_path))):
+        return [
+            {'name': f.split('.')[0], 'image': os.path.join(class_path, f), 'present': True}
+            for f in os.listdir(class_path)
+            if f.endswith('.jpg') or f.endswith('.png')
+        ]
+    # for i in range(1, num+1):
+
     for f in os.listdir(class_path):
         if f.endswith('.jpg') or f.endswith('.png'):
             students.append({'name': f.split('.')[0], 'image': os.path.join(class_path, f), 'present': True if counts > 0 else False })

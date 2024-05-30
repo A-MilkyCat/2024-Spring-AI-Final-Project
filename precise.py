@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 import os
-import random
-import test
-import check_face
+import predict_precise
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # secret key for your session
@@ -24,7 +22,7 @@ def get_students_absent(class_name, file_path):
     students = []
     for f in os.listdir(class_path):
         if f.endswith('.jpg') or f.endswith('.png'):
-            sim = check_face.get_sim(file_path, os.path.join(class_path, f), threshold)
+            sim = predict_precise.get_sim(file_path, os.path.join(class_path, f), threshold)
             if sim >= threshold:
                 students.append({'name': f.split('.')[0], 'image': os.path.join(class_path, f), 'present': True })
             else:
