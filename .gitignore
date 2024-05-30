@@ -1,6 +1,6 @@
 __pycache__/
 
-logs/
+logs/*
 !logs/README.md
 
 tmp/*
