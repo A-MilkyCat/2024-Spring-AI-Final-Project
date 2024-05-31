@@ -10,11 +10,7 @@ https://arxiv.org/pdf/1503.03832
 pip install -r requirements.txt
 ```
 ## Usage
-### Windows:
-For windows user:  
-double-click on _free.bat_ or _precise.bat_
-### Others:
-run  
+Depend on your need, run  
 ```
 python free.py
 ```
@@ -22,7 +18,7 @@ or
 ```
 python precise.py
 ```
-then got to  
+then go to website  
 ```
 http://127.0.0.1:5000/
 ```
