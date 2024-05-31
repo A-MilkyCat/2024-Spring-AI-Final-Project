@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 import os
 import predict_free
-import test
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # secret key for your session
@@ -18,7 +17,6 @@ def get_students(class_name):
         if f.endswith('.jpg') or f.endswith('.png')
     ]
 def get_students_absent(class_name, file_path):
-    counts = test.show_face(file_path)
     class_path = os.path.join(CLASS_FOLDER, class_name)
     students = []
     num = predict_free.write_face_to_tmp(file_path)
@@ -55,7 +53,7 @@ def index():
             file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
             print(file_path)
             file.save(file_path)
-            # 上传图片后随机确认学生出席
+            
             # students = session.get('students', get_students_absent(selected_class, file_path))
             students = get_students_absent(selected_class, file_path)
             session['students'] = students

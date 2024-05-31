@@ -19,9 +19,9 @@ def write_face_to_tmp(file_path):
         x2, y2 = min(img.shape[1], x2), min(img.shape[0], y2)
         face_img = img[y1:y2, x1:x2]
         
-        face_filename = f'./tmp/face_{i//10, i%10}.jpg'
+        face_filename = f'./tmp/face_{str(i//10) + str(i%10) }.jpg'
         cv2.imwrite(face_filename, face_img)
-        print(f'Saved face image: {face_filename}')
+        # print(f'Saved face image: {face_filename}')
         
     return i # return how many faces in the pic
 
@@ -77,7 +77,7 @@ def get_sim(file_path, student_path, num):
     # sx = dict(sorted(sx.items()))
     # sy = dict(sorted(sy.items()))
     # print(sx)
-    return sy.keys()
+    return sy.keys() # return a list 
     print(sy)
     model = Siamese()
     image_1 = Image.open(img1_path)
