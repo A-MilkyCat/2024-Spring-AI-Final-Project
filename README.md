@@ -1,6 +1,7 @@
 # 2024-Spring-AI-Final-Project
 ## Auto Roll Call system 自動點名系統
-**Check out our demo video [here]!**
+**Check out our demo video [here]!(https://google.com)**  
+**[PPT](https://google.com)**  
 ## Before Starting
 ### Clone this repo
 ```
@@ -26,13 +27,13 @@ or
 ```
 python precise.py
 ```
+then go to website  
+```
+http://127.0.0.1:5000/
+```
 ## Reference
 https://arxiv.org/pdf/1503.03832
 
 "Deep Residual Learning for Image Recognition" https://arxiv.org/pdf/1512.03385
 
-"Arc Face" https://arxiv.org/pdf/1801.07698
-then go to website  
-```
-http://127.0.0.1:5000/
-```
+"Arc Face" https://arxiv.org/pdf/1801.07698  
