@@ -16,7 +16,8 @@ pip install -r requirements.txt
    - Download our pretrained model [Here](https://drive.google.com/drive/folders/1uGKw-sEQPMBAY83QOGWZUzfY-P4qJJ3w?fbclid=IwAR2mu166VIUVfrZaYwvIwOucGJhMSoftllX6tS5yXc88umxVJT1Js86COcY)  
    - Train your own model by [this project](https://github.com/fish5524/AI_final)  
 3. Put the model in ```/logs``` folder  
-4. Put your own students picuture in ```/static/Classes/class0``` folder  
+### Prepare your students picture 
+Put your students picuture in ```/static/Classes/class0``` folder  
 You can also create a new class folder  under ```/static/Classes```  
 ## Usage
 Depend on your need, Run  
