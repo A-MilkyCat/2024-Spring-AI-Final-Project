@@ -13,8 +13,9 @@ pip install -r requirements.txt
 ```
 Download our pretrained model:  
 https://drive.google.com/drive/folders/1uGKw-sEQPMBAY83QOGWZUzfY-P4qJJ3w?fbclid=IwAR2mu166VIUVfrZaYwvIwOucGJhMSoftllX6tS5yXc88umxVJT1Js86COcY  
-and put it to ```/logs/``` folder
-
+and put it to ```/logs/``` folder  
+Put your own students picutre in ```/static/Classes/class0```  
+you can also create a new class folder  
 ## Usage
 Depend on your need, Run  
 ```
