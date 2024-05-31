@@ -9,3 +9,7 @@ https://arxiv.org/pdf/1503.03832
 ```
 pip install -r requirements.txt
 ```
+## Usage
+### Windows:
+For windows user:
+double-click on _free.bat_ or _precise.bat_
