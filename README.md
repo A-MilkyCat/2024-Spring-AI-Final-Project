@@ -12,11 +12,11 @@ git clone https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project.git
 pip install -r requirements.txt
 ```
 Download our pretrained model:  
-https://drive.google.com/drive/folders/1uGKw-sEQPMBAY83QOGWZUzfY-P4qJJ3w?fbclid=IwAR2mu166VIUVfrZaYwvIwOucGJhMSoftllX6tS5yXc88umxVJT1Js86COcY
+https://drive.google.com/drive/folders/1uGKw-sEQPMBAY83QOGWZUzfY-P4qJJ3w?fbclid=IwAR2mu166VIUVfrZaYwvIwOucGJhMSoftllX6tS5yXc88umxVJT1Js86COcY  
 and put it to ```/logs/``` folder
 
 ## Usage
-Depend on your need, run  
+Depend on your need, Run  
 ```
 python free.py
 ```
