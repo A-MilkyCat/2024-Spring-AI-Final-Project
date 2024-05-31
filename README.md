@@ -1,11 +1,5 @@
 # 2024-Spring-AI-Final-Project
-## 參考資料
-https://arxiv.org/pdf/1503.03832
-
-"Deep Residual Learning for Image Recognition" https://arxiv.org/pdf/1512.03385
-
-"Arc Face" https://arxiv.org/pdf/1801.07698
-
+# Auto Roll Call system 自動點名系統
 ### Check out our demo video [here]!  
 ## Before Starting
 ### Clone this repo
@@ -21,7 +15,7 @@ pip install -r requirements.txt
    - Download our pretrained model [Here](https://drive.google.com/drive/folders/1uGKw-sEQPMBAY83QOGWZUzfY-P4qJJ3w?fbclid=IwAR2mu166VIUVfrZaYwvIwOucGJhMSoftllX6tS5yXc88umxVJT1Js86COcY)  
    - Train your own model by [this project](https://github.com/fish5524/AI_final)  
 3. Put the model in ```/logs``` folder  
-4. Put your own students picutre in ```/static/Classes/class0``` folder  
+4. Put your own students picuture in ```/static/Classes/class0``` folder  
 You can also create a new class folder  under ```/static/Classes```  
 ## Usage
 Depend on your need, Run  
@@ -32,6 +26,12 @@ or
 ```
 python precise.py
 ```
+## Reference
+https://arxiv.org/pdf/1503.03832
+
+"Deep Residual Learning for Image Recognition" https://arxiv.org/pdf/1512.03385
+
+"Arc Face" https://arxiv.org/pdf/1801.07698
 then go to website  
 ```
 http://127.0.0.1:5000/
