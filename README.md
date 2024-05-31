@@ -12,11 +12,10 @@ git clone https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project.git
 pip install -r requirements.txt
 ```
 
-Download our pretrained model [Here](https://drive.google.com/drive/folders/1uGKw-sEQPMBAY83QOGWZUzfY-P4qJJ3w?fbclid=IwAR2mu166VIUVfrZaYwvIwOucGJhMSoftllX6tS5yXc88umxVJT1Js86COcY)
-put it to ```/logs/``` folder  
-
-Put your own students picutre in ```/static/Classes/class0```  
-you can also create a new class folder  
+1. Download our pretrained model [Here](https://drive.google.com/drive/folders/1uGKw-sEQPMBAY83QOGWZUzfY-P4qJJ3w?fbclid=IwAR2mu166VIUVfrZaYwvIwOucGJhMSoftllX6tS5yXc88umxVJT1Js86COcY)  
+   Put it to ```/logs/``` folder  
+2. Put your own students picutre in ```/static/Classes/class0```  
+You can also create a new class folder  
 ## Usage
 Depend on your need, Run  
 ```
