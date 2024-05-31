@@ -9,8 +9,8 @@ tmp/*
 static/uploads/*
 !static/uploads/README.md
 
-static/Classes/*
-!static/Classes/Mayday
+# static/Classes/*
+# !static/Classes/Mayday
 
 static/Classes/class0/*
 !static/Classes/class0/README.md
