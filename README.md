@@ -5,7 +5,8 @@ https://arxiv.org/pdf/1503.03832
 "Deep Residual Learning for Image Recognition" https://arxiv.org/pdf/1512.03385
 
 "Arc Face" https://arxiv.org/pdf/1801.07698
-  
+
+### Check out our demo video [here]!  
 ## Before Starting
 ### Clone this repo
 ```
