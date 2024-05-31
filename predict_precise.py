@@ -7,7 +7,7 @@ def get_sim(file_path, student_path, threshold):
 
     app = FaceAnalysis(providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
     app.prepare(ctx_id=0, det_size=(640, 640))
-    handler = insightface.model_zoo.get_model('C:/Users/User/.insightface/models/buffalo_l/w600k_r50.onnx')
+    handler = insightface.model_zoo.get_model('C:/Users/User/.insightface/models/buffalo_l/w600k_r50.onnx') # find your own model path
     handler.prepare(ctx_id=0)
 
     img1 = cv2.imread(file_path) # big pic

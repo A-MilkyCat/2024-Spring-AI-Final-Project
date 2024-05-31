@@ -125,11 +125,11 @@ class Siamese(object):
             output = self.net([photo_1, photo_2])[0]
             output = torch.nn.Sigmoid()(output)
 
-        plt.subplot(1, 2, 1)
-        plt.imshow(np.array(image_1))
+        # plt.subplot(1, 2, 1)
+        # plt.imshow(np.array(image_1))
 
-        plt.subplot(1, 2, 2)
-        plt.imshow(np.array(image_2))
-        plt.text(-12, -12, 'Similarity:%.3f' % output, ha='center', va= 'bottom',fontsize=11)
-        plt.show()
+        # plt.subplot(1, 2, 2)
+        # plt.imshow(np.array(image_2))
+        # plt.text(-12, -12, 'Similarity:%.3f' % output, ha='center', va= 'bottom',fontsize=11)
+        # plt.show()
         return output

@@ -30,11 +30,14 @@ def get_students_absent(class_name, file_path):
             if f.endswith('.jpg') or f.endswith('.png')
         ]
     # for i in range(1, num+1):
-
+    i = 0
+    print(num)
+    attend = predict_free.get_sim("tmp", class_path, num)
     for f in os.listdir(class_path):
         if f.endswith('.jpg') or f.endswith('.png'):
-            students.append({'name': f.split('.')[0], 'image': os.path.join(class_path, f), 'present': True if counts > 0 else False })
-            counts = counts -1
+            students.append({'name': f.split('.')[0], 'image': os.path.join(class_path, f), 'present': True if i in attend else False })
+            # counts = counts -1
+        i = i + 1
     return students
 
 @app.route('/', methods=['GET', 'POST'])

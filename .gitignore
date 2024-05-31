@@ -6,6 +6,12 @@ logs/*
 tmp/*
 !tmp/README.md
 
+static/uploads/*
+!static/uploads/README.md
+
+static/Classes/*
+!static/Classes/Mayday
+
 Spring 2024 AI Final Project Spec.pdf
 dlib-19.22.99-cp310-cp310-win_amd64.whl
 insightface-0.7.3-cp310-cp310-win_amd64.whl
@@ -13,3 +19,4 @@ test_import.py
 test.py
 test2.py
 app2.py
+rollcall.py
