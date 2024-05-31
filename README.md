@@ -11,5 +11,18 @@ pip install -r requirements.txt
 ```
 ## Usage
 ### Windows:
-For windows user:
+For windows user:  
 double-click on _free.bat_ or _precise.bat_
+### Others:
+run  
+```
+python free.py
+```
+or  
+```
+python precise.py
+```
+then got to  
+```
+http://127.0.0.1:5000/
+```
