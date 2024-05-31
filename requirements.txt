@@ -1,3 +1,5 @@
 torch
 torchvision
 insightface
+onnxruntime
+flask
