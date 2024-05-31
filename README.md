@@ -1,6 +1,6 @@
 # 2024-Spring-AI-Final-Project
 ## Auto Roll Call system 自動點名系統
-**Check out our demo video [here]!(https://google.com)**  
+**Check out our demo video [here](https://google.com)!**  
 **[PPT](https://google.com)**  
 ## Before Starting
 ### Clone this repo
