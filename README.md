@@ -7,14 +7,20 @@ https://arxiv.org/pdf/1503.03832
 "Arc Face" https://arxiv.org/pdf/1801.07698
   
 ## Before Starting
+### Clone this repo
 ```
 git clone https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project.git
+```
+### Install prerequisites
+1. For python
+```
 pip install -r requirements.txt
 ```
-
-1. Download our pretrained model [Here](https://drive.google.com/drive/folders/1uGKw-sEQPMBAY83QOGWZUzfY-P4qJJ3w?fbclid=IwAR2mu166VIUVfrZaYwvIwOucGJhMSoftllX6tS5yXc88umxVJT1Js86COcY)  
-   Put it to ```/logs``` folder  
-2. Put your own students picutre in ```/static/Classes/class0``` folder  
+2. Get the model
+   Download our pretrained model [Here](https://drive.google.com/drive/folders/1uGKw-sEQPMBAY83QOGWZUzfY-P4qJJ3w?fbclid=IwAR2mu166VIUVfrZaYwvIwOucGJhMSoftllX6tS5yXc88umxVJT1Js86COcY)  
+   Or you can train on your own model by [this project](https://github.com/fish5524/AI_final)  
+3. Put the model in ```/logs``` folder
+4. Put your own students picutre in ```/static/Classes/class0``` folder  
 You can also create a new class folder  under ```/static/Classes```  
 ## Usage
 Depend on your need, Run  
