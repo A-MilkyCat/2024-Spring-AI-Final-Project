@@ -33,10 +33,13 @@ then go to website
 http://127.0.0.1:5000/
 ```
 ## Reference
-https://arxiv.org/pdf/1503.03832
+"FaceNet: A Unified Embedding for Face Recognition and Clustering" https://arxiv.org/pdf/1503.03832
 
 "Deep Residual Learning for Image Recognition" https://arxiv.org/pdf/1512.03385
 
-"Arc Face" https://arxiv.org/pdf/1801.07698  
-Dataset : https://www.kaggle.com/datasets/atulanandjha/lfwpeople  
-Insightface : https://github.com/deepinsight/insightface  
+"Arc Face" https://arxiv.org/pdf/1801.07698
+
+Dataset : https://www.kaggle.com/datasets/atulanandjha/lfwpeople
+
+Insightface : https://github.com/deepinsight/insightface
+
