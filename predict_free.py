@@ -12,11 +12,14 @@ def write_face_to_tmp(file_path):
     img = cv2.imread(file_path)
     faces = app.get(img)
     i = 0
+    extend_const = 0.1
     for face in faces:
         i = i + 1
         x1, y1, x2, y2 = face.bbox.astype(int)
-        x1, y1 = max(0, x1), max(0, y1)
-        x2, y2 = min(img.shape[1], x2), min(img.shape[0], y2)
+        x_dif = x2 - x1
+        y_dif = y2 - y1
+        x1, y1 = max(0, x1-int(extend_const*x_dif)), max(0, y1-int(extend_const*y_dif))
+        x2, y2 = min(img.shape[1], x2+int(extend_const*x_dif)), min(img.shape[0], y2+int(extend_const*y_dif))
         face_img = img[y1:y2, x1:x2]
         
         face_filename = f'./tmp/face_{str(i//10) + str(i%10) }.jpg'
@@ -64,13 +67,13 @@ def get_sim(file_path, student_path, num):
         if x not in sx and y not in sy:
             sx[x] = Score[x][y]
             sy[y] = Score[x][y]
-            plt.subplot(1, 2, 1)
-            plt.imshow(np.array(student_img[x]))
+            # plt.subplot(1, 2, 1)
+            # plt.imshow(np.array(student_img[x]))
 
-            plt.subplot(1, 2, 2)
-            plt.imshow(np.array(member_img[y]))
-            plt.text(-12, -12, 'Similarity:%.3f' % Score[x][y], ha='center', va= 'bottom',fontsize=11)
-            plt.show()
+            # plt.subplot(1, 2, 2)
+            # plt.imshow(np.array(member_img[y]))
+            # plt.text(-12, -12, 'Similarity:%.3f' % Score[x][y], ha='center', va= 'bottom',fontsize=11)
+            # plt.show()
         Score[x][y] = 0
         if len(sx) == len(student_img):
             break
