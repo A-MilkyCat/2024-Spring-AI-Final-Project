@@ -13,7 +13,7 @@ git clone https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project.git
 pip install -r requirements.txt
 ```
 2. Get the model by  
-   - Download our pretrained model [Here]([https://drive.google.com/drive/folders/1uGKw-sEQPMBAY83QOGWZUzfY-P4qJJ3w?fbclid=IwAR2mu166VIUVfrZaYwvIwOucGJhMSoftllX6tS5yXc88umxVJT1Js86COcY](https://drive.google.com/file/d/10uY-Wbg71nDSsKxRduoUBIazWRFdW7I4/view?usp=sharing))  
+   - Download our pretrained model [Here](https://drive.google.com/file/d/10uY-Wbg71nDSsKxRduoUBIazWRFdW7I4/view?usp=sharing)  
    - Train your own model by [this project](https://github.com/fish5524/AI_final)  
 3. Put the model in ```/logs``` folder  
 ### Prepare your students picture 
