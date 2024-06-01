@@ -3,7 +3,7 @@
 **Check out our demo video [Here](https://google.com) and PPT [Here]([https://google.com](https://docs.google.com/presentation/d/1TjFuRr5vVuy6mjkHQ2ntSJ5wVJuoA7EmUwdwKCe0xV4/edit?usp=sharing))!** 
 ## Introduction
 This project create a local Auto Roll Call system with a simple interface.  
-![image](https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project/blob/trivial/tmp/demo.gif)  
+![image]()  
 There are two roll call methods:
 - ```free.py``` Assume all people in the picture are in the students list  
 - ```precise.py``` Only check the attendence if the picture matchs student over certain threshold.
