@@ -1,7 +1,13 @@
 # 2024-Spring-AI-Final-Project
 ## Auto Roll Call system 自動點名系統
 **Check out our demo video [here](https://google.com)!**  
-**[PPT](https://google.com)**  
+**[PPT]([https://google.com](https://docs.google.com/presentation/d/1TjFuRr5vVuy6mjkHQ2ntSJ5wVJuoA7EmUwdwKCe0xV4/edit?usp=sharing))**  
+## Introduction
+This project create a local Auto Roll Call system with a simple interface.  
+You can check whether the students are absent by uplaod a picture.  
+There are two roll call methods:
+- ```free.py``` this 
+- ```precise.py```
 ## Before Starting
 ### Clone this repo
 ```
@@ -42,4 +48,6 @@ http://127.0.0.1:5000/
 Dataset : https://www.kaggle.com/datasets/atulanandjha/lfwpeople
 
 Insightface : https://github.com/deepinsight/insightface
+
+siamese network : https://github.com/bubbliiiing/Siamese-pytorch/tree/master
 
