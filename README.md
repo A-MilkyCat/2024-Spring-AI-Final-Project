@@ -5,8 +5,8 @@
 This project create a local Auto Roll Call system with a simple interface.  
 ![image]()  
 There are two roll call methods:
-- ```free.py``` Assume all people in the picture are in the students list  
-- ```precise.py``` Only check the attendence if the picture matchs student over certain threshold.
+- ```free.py``` Assume all people in the picture are in the students list, students with highest familiarity are checked.  
+- ```precise.py``` Only check the attendence if familarity over certain threshold.
 ## Before Starting
 ### Clone this repo
 ```
@@ -44,7 +44,7 @@ http://127.0.0.1:5000/
 
 "Arc Face" https://arxiv.org/pdf/1801.07698
 
-Dataset : https://www.kaggle.com/datasets/atulanandjha/lfwpeople
+Training Dataset : https://www.kaggle.com/datasets/atulanandjha/lfwpeople
 
 Insightface : https://github.com/deepinsight/insightface
 
