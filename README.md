@@ -6,10 +6,10 @@ This project create a local Auto Roll Call system using siamese network with a s
   
 <img src="https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project/blob/trivial/static/Classes/Mayday/pic/demo2.png" width="650">  
 
-You can check the students attendence by taking a picture and uploading it.  
+You can check the attendance by taking a photo and uploading it.  
 There are two roll call methods:
-- ```free.py``` Assume all people in the picture are in the students list, students with highest similarity  will be considered present.
-- ```precise.py``` Attendance is confirmed only if the similarity between the person in the photo and the person in the student list exceeds the threshold.
+- ```free.py``` Assume all people in the photo are in the students list, students with highest similarity  will be considered present.
+- ```precise.py``` Attendance is confirmed only if the similarity between the person in the photo and the person in the student list exceeds the threshold (Using Insightface model, more time consuming).
 ## Before Starting
 ### Clone this repo
 ```
@@ -24,8 +24,8 @@ pip install -r requirements.txt
    - Download our pretrained model [Here](https://drive.google.com/file/d/10uY-Wbg71nDSsKxRduoUBIazWRFdW7I4/view?usp=sharing)  
    - Train your own model by [this project](https://github.com/bubbliiiing/Siamese-pytorch/tree/master)  
 3. Put the model in ```/logs``` folder  
-### Prepare your students picture 
-Put your students picuture in ```/static/Classes/class0``` folder  
+### Prepare your students list 
+Put your students headshot in ```/static/Classes/class0``` folder  
 You can also create a new class folder  under ```/static/Classes```  
 ## Usage
 1. Depend on your need, Run  
