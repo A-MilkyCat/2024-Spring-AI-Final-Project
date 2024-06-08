@@ -6,7 +6,7 @@ This project create a local Auto Roll Call system using siamese network with a s
   
 <img src="https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project/blob/trivial/static/Classes/Mayday/pic/demo2.png" width="650">  
 
-  
+You can check the students attendence by taking a picture and uploading it.  
 There are two roll call methods:
 - ```free.py``` Assume all people in the picture are in the students list, students with highest similarity  will be considered present.
 - ```precise.py``` Attendance is confirmed only if the similarity between the person in the photo and the person in the student list exceeds the threshold.
