@@ -3,9 +3,9 @@
 **Check out our demo video [Here](https://google.com) and PPT [Here](https://docs.google.com/presentation/d/1TjFuRr5vVuy6mjkHQ2ntSJ5wVJuoA7EmUwdwKCe0xV4/edit?usp=sharing)!** 
 ## Introduction
 This project create a local Auto Roll Call system using siamese network with a simple interface.  
-<img src="https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project/blob/trivial/static/Classes/Mayday/pic/demo1.png" width="450">  
+<img src="https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project/blob/trivial/static/Classes/Mayday/pic/demo1.png" width="650">  
   
-<img src="https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project/blob/trivial/static/Classes/Mayday/pic/demo2.png" width="450">  
+<img src="https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project/blob/trivial/static/Classes/Mayday/pic/demo2.png" width="650">  
 
   
 There are two roll call methods:
