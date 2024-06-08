@@ -5,7 +5,6 @@ logs/*
 
 tmp/*
 !tmp/README.md
-!tmp/demo.gif
 
 static/uploads/*
 !static/uploads/README.md
