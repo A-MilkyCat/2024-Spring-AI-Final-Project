@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>自動點名系統</title>
+    <title>Auto Roll Call System</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>上傳圖片</h1>
+    <h1>Uplaod Picture</h1>
     <div class="upload-container">
         <form method="post" enctype="multipart/form-data">
             <input type="file" name="file" id="file-input" accept="image/*">
-            <input type="submit" value="上傳">
+            <input type="submit" value="Upload">
         </form>
         <div id="preview-container">
             <img id="preview-image" src="#" alt="Image Preview">
         </div>
     </div>
-    <h2>選擇班級</h2>
+    <h2>Select Class</h2>
     <div class="folder-container">
         <form method="get">
             <div class="folder-section">
@@ -25,10 +25,10 @@
                     <label for="class">{{ class }}</label>
                 {% endfor %}
             </div>
-            <input type="submit" value="選擇">
+            <input type="submit" value="Confirm">
         </form>
     </div>
-    <h3>學生出席情況</h3>
+    <h3>Attendence</h3>
     <ul>
         {% for student in students %}
             <li>
