@@ -2,8 +2,8 @@
 ## Auto Roll Call system 自動點名系統
 **Check out our demo video [Here](https://google.com) and PPT [Here](https://docs.google.com/presentation/d/1TjFuRr5vVuy6mjkHQ2ntSJ5wVJuoA7EmUwdwKCe0xV4/edit?usp=sharing)!** 
 ## Introduction
-This project create a local Auto Roll Call system with a simple interface.  
-![image](https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project/blob/trivial/static/Classes/Mayday/pic/demo1.png)  
+This project create a local Auto Roll Call system using siamese network with a simple interface.  
+![image](https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project/blob/trivial/static/Classes/Mayday/pic/demo1.png)    
 ![image](https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project/blob/trivial/static/Classes/Mayday/pic/demo2.png)  
 
 There are two roll call methods:
