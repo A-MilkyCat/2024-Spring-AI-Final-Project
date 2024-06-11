@@ -18,11 +18,12 @@ git clone https://github.com/A-MilkyCat/2024-Spring-AI-Final-Project.git
 ### Install prerequisites
 1. For python
 ```
+cd 2024-Spring-AI-Final-Project
 pip install -r requirements.txt
 ```
 2. Get the model by  
    - Download our pretrained model [Here](https://drive.google.com/file/d/10uY-Wbg71nDSsKxRduoUBIazWRFdW7I4/view?usp=sharing)  
-   - Train your own model by [this project](https://github.com/bubbliiiing/Siamese-pytorch/tree/master)  
+   - Train your own model by [this project]([https://github.com/bubbliiiing/Siamese-pytorch/tree/master](https://github.com/fish5524/AI_final?fbclid=IwAR3jCsiNI_Ai610_YG7qgSisoZ0iOIjDG34IbyCVI0ctYl87bzAqHry9Ttw))  
 3. Put the model in ```/logs``` folder  
 ### Prepare your students list 
 Put your students headshot in ```/static/Classes/class0``` folder  
